@@ -1,0 +1,7 @@
+User-agent: Baiduspider
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://lingjiangjianshe.github.io/sitemap.xml
