@@ -4,4 +4,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://lingjiangjianshe.github.io/sitemap.xml
+Sitemap: https://lingjiangconstruction.com/sitemap.xml
