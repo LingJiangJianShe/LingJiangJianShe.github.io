@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#061525">
   <script>document.documentElement.classList.add('js');</script>
   <meta name="description" content="江苏陵匠建设工程有限公司，专注商业办公、展厅、餐饮、商业生活、酒店、超市、培训等商业空间设计与施工。拥有建筑装修装饰工程专业承包贰级、特种工程（结构补强）、施工劳务资质，服务深圳及江苏周边城市。">
+  <meta name="keywords" content="深圳商业空间装修,深圳办公室装修,深圳展厅装修,深圳餐饮装修,深圳酒店装修,深圳超市装修,深圳培训空间装修,商业空间设计,工装装修,宝安装修公司,陵匠建设,江苏陵匠建设工程有限公司">
   <meta property="og:title" content="陵匠建设｜商业空间设计施工一体化">
   <meta property="og:description" content="江苏陵匠建设工程有限公司，七大商业业态设计施工一体化。建筑装修装饰二级、特种工程（结构补强）资质，深圳及江苏周边项目服务。">
   <meta property="og:type" content="website">
@@ -3442,23 +3443,28 @@
       const pageMeta = {
         home: {
           title: '陵匠建设｜商业空间设计施工一体化',
-          description: '江苏陵匠建设工程有限公司，专注商业办公、展厅、餐饮、商业生活、酒店、超市、培训等商业空间设计与施工，拥有建筑装修装饰二级、特种工程（结构补强）等资质。'
+          description: '江苏陵匠建设工程有限公司，专注商业办公、展厅、餐饮、商业生活、酒店、超市、培训等商业空间设计与施工。拥有建筑装修装饰工程专业承包贰级、特种工程（结构补强）、施工劳务资质，服务深圳及江苏周边城市。',
+          keywords: '深圳商业空间装修,深圳办公室装修,深圳展厅装修,深圳餐饮装修,深圳酒店装修,深圳超市装修,深圳培训空间装修,商业空间设计,工装装修,宝安装修公司,陵匠建设'
         },
         cases: {
           title: '案例展示｜陵匠建设 · 七大商业业态',
-          description: '查看陵匠建设商业办公、展厅、餐饮、商业生活、酒店、超市、培训代表案例，点击封面查看每个案例的全部效果图。'
+          description: '查看陵匠建设商业办公、展厅、餐饮、商业生活、酒店、超市、培训代表案例，点击封面查看每个案例的全部效果图。',
+          keywords: '深圳商业空间装修案例,办公室装修案例,展厅设计案例,餐饮空间装修,酒店装修案例,超市装修案例,培训空间设计,陵匠建设案例'
         },
         services: {
           title: '服务与报价｜陵匠建设 · 设计施工一体化',
-          description: '了解陵匠建设6步服务流程、设计协同能力、半包与全包报价口径，并在线预约免费量房与项目报价。'
+          description: '了解陵匠建设6步服务流程、设计协同能力、半包与全包报价口径，并在线预约免费量房与项目报价。',
+          keywords: '深圳装修报价,商业空间设计施工,半包报价,全包报价,免费量房,装修流程,陵匠建设'
         },
         about: {
           title: '关于我们｜江苏陵匠建设 · 2018年成立',
-          description: '江苏陵匠建设工程有限公司成立于2018年，注册资本2000万元，拥有建筑装修装饰工程专业承包贰级、特种工程（结构补强）、施工劳务等资质。'
+          description: '江苏陵匠建设工程有限公司成立于2018年，注册资本2000万元，拥有建筑装修装饰工程专业承包贰级、特种工程（结构补强）、施工劳务等资质。',
+          keywords: '江苏陵匠建设工程有限公司,陵匠建设,深圳装修公司,建筑装修装饰工程专业承包贰级,结构补强,商业空间设计'
         },
         contact: {
           title: '联系我们｜江苏陵匠建设 · 深圳宝安',
-          description: '联系江苏陵匠建设工程有限公司，获取商业空间设计、施工、结构补强咨询与项目报价。公司地址：广东省深圳市宝安区旭生融和中心2栋卓越共赢科创园(西乡项目)10层02号。'
+          description: '联系江苏陵匠建设工程有限公司，获取商业空间设计、施工、结构补强咨询与项目报价。公司地址：广东省深圳市宝安区旭生融和中心2栋卓越共赢科创园(西乡项目)10层02号。',
+          keywords: '联系陵匠建设,深圳宝安装修公司,商业空间装修咨询,免费上门勘测,13332933761'
         }
       };
 
@@ -3514,6 +3520,8 @@
         document.title = pageMeta[route].title;
         const description = document.querySelector('meta[name="description"]');
         if (description) description.setAttribute('content', pageMeta[route].description);
+        const keywords = document.querySelector('meta[name="keywords"]');
+        if (keywords) keywords.setAttribute('content', pageMeta[route].keywords);
 
         closeMenu();
         if (opts.scroll !== false) {
